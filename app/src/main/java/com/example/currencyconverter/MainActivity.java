@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         final RadioButton CanadianDollar = (RadioButton) findViewById(R.id.radBtnCNDollar);
         final RadioButton MexicanPeso = (RadioButton) findViewById(R.id.radBtnMXPeso);
 
+
         final Button Convert = (Button) findViewById(R.id.btnConvert);
 
         Convert.setOnClickListener(new View.OnClickListener() {
